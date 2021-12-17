@@ -1,0 +1,42 @@
+body{
+    background-color:white;
+    margin: 0;
+    padding: 0;
+}
+.dots{
+
+    border: red dotted 8px;
+    margin: 250px;
+    align-self: center;
+    box-sizing: border-box;
+}
+
+.border{
+    border: black solid 15px;
+    box-sizing: border-box;
+
+    
+}
+.title{
+    box-sizing: content-box;
+    border: green solid 2px;
+    margin: 40px;
+    padding: 10px;
+    font-size: 40px;
+    color: green;
+    font-weight:bold;  
+}
+.pictur{
+   text-align: center;
+}
+.content{
+    box-sizing: content-box;
+    border: red dashed 8px ;
+    margin: 40px;
+    padding: 10px;
+    height: 300px;
+    font-size:30px;
+    text-align: center;
+    overflow: hidden;
+    overflow-y: scroll;
+}
